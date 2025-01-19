@@ -11,7 +11,7 @@ public class ContactDBLoad {
 
         return args -> {
             System.out.println("Preloading " + repository.save(new Contact("John Smith", "123-456-7890")));
-            System.out.println("Preloading " + repository.save(new Contact("Jeff Davis2", "098-765-4321")));
+            System.out.println("Preloading " + repository.save(new Contact("Jeff Davis", "098-765-4321")));
         };
     }
 
